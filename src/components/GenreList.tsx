@@ -20,6 +20,7 @@ function GenreList({ selectedGenre, onSelectGenre }: Props) {
 
 	if (error) return null;
 	if (isLoading) return <Spinner></Spinner>;
+
 	return (
 		<>
 			<Heading fontSize="2xl" marginBottom={3}>
